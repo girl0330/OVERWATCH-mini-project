@@ -1,0 +1,26 @@
+.container {
+
+}
+.container .heroes {
+  display: flex;
+  flex-wrap: wrap; /*줄 바꿈*/
+  justify-content: center; /*중앙 정렬*/
+  background-color: orange;
+  max-width: 700px; /*최대 넓이*/
+  margin: auto; /*가로 사이즈가 지정이 되어있고 margin이 auto라면 (블럭)요소는 가운데 정렬 */
+  padding: 40px 20px; /*내부 여백*/
+
+}
+.container .heroes .hero {
+  width: 80px;
+  height: 84px;
+  margin: 4px; /*외부 여백*/
+  border: 3px solid #fff;
+  border-radius: 10px; /*모서리를 둥글게*/
+  box-sizing: border-box; /*사이즈 border 두께를 고려해서 설정*/
+  background-color: #555;
+  transform: skewX(-14deg); /*요소에 변환효과 추가, x축으로 기울임, deg 각도*/
+}
+.container .heroes .hero .image {
+
+}
